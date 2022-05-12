@@ -10,7 +10,7 @@ if [ "$choice" = "y" ]; then
     sudo pacman -S xf86-video-vmware virtualbox-guest-utils virtualbox-guest-modules-arch --noconfirm --needed
 fi
 
-sudo pacman -S xorg xorg-xinit feh rofi ranger bspwm sxhkd dunst vim neofetch python3 zsh noto-fonts noto-fonts-emoji chromium ttf-font-awesome otf-font-awesome pulseaudio pulseaudio-alsa pamixer unzip firefox picom wget make --noconfirm --needed
+sudo pacman -S xorg xorg-xinit feh rofi bspwm sxhkd dunst neofetch python3 zsh noto-fonts noto-fonts-emoji chromium ttf-font-awesome otf-font-awesome unzip firefox picom wget make --noconfirm --needed
 
 
 if pacman -Qs yay > /dev/null ; then
@@ -23,7 +23,7 @@ else
 fi
 
 
-yay -S polybar rxvt-unicode-256xresources spicetify-cli nerd-fonts-iosevka python-ueberzug spotify betterlockscreen --needed --removemake --nocleanmenu --nodiffmenu --noeditmenu --noconfirm
+yay -S polybar rxvt-unicode-256xresources nerd-fonts-iosevka python-ueberzug spotify betterlockscreen --needed --removemake --nocleanmenu --nodiffmenu --noeditmenu --noconfirm
 
 
 # ====================================
